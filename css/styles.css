@@ -10,6 +10,72 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-family: arial, sans-serif;
+}
+
+/* HEADER */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li > a {
+  color: #000000;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.about-store {
+  display: flex;
+  align-items: center;
+}
+
+.about-store ul {
+  display: flex;
+  align-items: center;
+}
+
+.about-store ul li {
+  margin: 0rem 1rem;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+}
+
+.services ul {
+  display: flex;
+  align-items: center;
+}
+
+.services ul li {
+  margin: 0rem 1rem;
+}
+
+.services > svg {
+  width: 30px;
+  height: 30px;
+  margin: 0rem 1rem;
+  padding: 8px;
+}
+
+.services button {
+  height: 30px;
+  padding: 0rem 0.5rem;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  color: #fff;
+  border: 1px solid #4285f4;
+  font-weight: bold;
 }
 
 /* MAIN */
